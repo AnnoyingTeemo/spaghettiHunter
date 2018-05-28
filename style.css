@@ -1,0 +1,92 @@
+* {
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+body {
+    background-color: #312f2f;
+    color: #6daedb
+}
+
+img {
+    width: 97%;
+    border: 2px solid #99c24d;
+}
+
+p {
+    font-size: 1.2em;
+    color: #f18f01;
+}
+
+header {
+    font-size: 2.5em;
+}
+
+.song {
+    width: 60%;
+    font-family: 'Lato', sans-serif;
+    margin-top: 477px;
+
+}
+
+header,
+footer {
+    padding: 1em;
+    color: #6daedb;
+    background-color: #434040;
+    clear: left;
+    text-align: center;
+}
+
+.sheep {
+    float: left;
+    width: 50%
+}
+
+.girrafe {
+    float: right;
+    width: 51%
+}
+
+.sheeptext {
+    margin-left: 18px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    float: right;
+    margin-top: 88px;
+}
+
+.girrafetext {
+    margin-right: 18px;
+    border-right: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    float: left;
+    margin-top: 88px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
